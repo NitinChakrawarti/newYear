@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+::selection{
+    color: transparent;
+}
+
 body {
     background-image: url("newyear.jpg");
     background-repeat: no-repeat;
@@ -25,4 +29,18 @@ body {
     font-family: 'Steelfish Rg', 'helvetica neue',
         helvetica, arial, sans-serif;
       
+}
+
+
+.online{
+    margin-top: 4vmax;
+    display: block;
+    height: 2vmax;
+}
+.fixed{
+    -webkit-text-stroke: 1px rgb(228, 106, 106); 
+
+    color: aliceblue;
+    font-size: 2vmax;
+    text-align: center;
 }
