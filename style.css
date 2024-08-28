@@ -27,20 +27,20 @@ body {
     -webkit-text-fill-color: rgba(0, 0, 0, 0.347);
     -webkit-text-stroke: 1px rgb(255, 255, 255); 
     font-family: 'Steelfish Rg', 'helvetica neue',
-        helvetica, arial, sans-serif;
-      
+        helvetica, arial, sans-serif;     
 }
-
-
 .online{
     margin-top: 4vmax;
-    display: block;
-    height: 2vmax;
-}
-.fixed{
-    -webkit-text-stroke: 1px rgb(228, 106, 106); 
-
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 4vmax;
     color: aliceblue;
-    font-size: 2vmax;
-    text-align: center;
+    span{
+        font-size: 4vmax;
+    }
+    p{
+        font-size: 1.5vmax;
+        margin-left: 1.4vmax;
+    }
 }
